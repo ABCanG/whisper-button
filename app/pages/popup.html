@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Whisper Button</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles/popup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="../scripts/popup.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <script src="../scripts/analytics.js"></script>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand" href="https://croudia.com" target="_blank">Croudia</a>
+        <ul class="nav navbar-nav pull-right">
+          <li class="login-item">
+            <a class="pointer" id="login-btn">Login</a>
+          </li>
+          <li class="dropdown logout-item">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="" class="avatar" id="user-icon">
+              <span id="user-name"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="pointer" id="logout-btn">Logout</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="message">リンクをあなたのフォロワーに共有する</div>
+      <div class="text-box">
+        <textarea name="text"></textarea>
+        <div align="right">
+          <span id="num">372</span>
+          <button class="btn btn-primary">ささやく</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

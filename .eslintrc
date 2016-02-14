@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true,
+    "es6": true,
+    "webextensions": true
+  },
+  "rules": {
+    "strict": [2, "global"],
+    "indent": [2, 2],
+    "quotes": [2, "single", "avoid-escape"],
+    "camelcase": [2, {"properties": "never"}],
+    "new-cap": 0,
+    "space-in-parens": [2, "never"],
+    "no-undef": 2,
+    "no-console": 1,
+    "no-underscore-dangle": 0,
+    "no-process-exit": 0,
+    "no-unused-vars": 1,
+    "no-unused-expressions": 0,
+    "no-alert": 1,
+    "no-dupe-args": 2,
+    "no-dupe-keys": 2,
+  }
+}
